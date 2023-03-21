@@ -1,0 +1,68 @@
+{
+    "configuration":
+    {
+        "SIZE_BIT"  :32,
+        "NUM_LEVELS":8,
+        "PADDING"   :0,
+        "SIZE_COUNT":10
+    },
+
+    "directories":
+    {
+        "PCAP_DIR"  : "../utils/pcap/",
+        "REPORT_DIR": "../reports/report/",
+        "TEST_DIR"  : "../reports/data/"
+    },
+    
+    "filenames":
+    {
+        "PCAP_FILENAME" : "trickbot_30min_03_out.pcap",
+        "TEST_PREFIX"   : "trickbot_30min_03_"
+    },
+
+    "snr_test_complete":
+    {   "NUMBER_SIGNALS_BASE": 5,
+        "PERIODIC_SIGNAL":
+        {
+            "PCAP_FILENAME": "signal_10pp9s_20pp14s_30pp11s_50pp4s_100pp5s_1.pcap",
+            "TEST_PREFIX": "signal_10pp9s_20pp14s_30pp11s_50pp4s_100pp5s_1_"
+
+        },
+        "NOISE_SIGNAL":
+        {
+            "PCAP_FILENAME": "slingbot_port1.pcap",
+            "TEST_PREFIX": "slingbot_port1_"
+
+        },
+        "SIGNALS":
+        {
+            "1":
+            {
+                "PCAP_FILENAME": "fakebot_100pp2s_5min.pcap",
+                "TEST_PREFIX": "fakebot_100pp2s_5min_"
+            },
+            "2":
+            {
+                "PCAP_FILENAME": "fakebot_100pp2s_5min.pcap",
+                "TEST_PREFIX": "fakebot_100pp2s_5min_"
+            },
+            "3":
+            {
+                "PCAP_FILENAME": "fakebot_100pp2s_5min.pcap",
+                "TEST_PREFIX": "fakebot_100pp2s_5min_"
+            },
+            "4":
+            {
+                "PCAP_FILENAME": "fakebot_100pp2s_5min.pcap",
+                "TEST_PREFIX": "fakebot_100pp2s_5min_"
+            },
+            "5":
+            {
+                "PCAP_FILENAME": "fakebot_100pp2s_5min.pcap",
+                "TEST_PREFIX": "fakebot_100pp2s_5min_"
+            }
+            
+        }
+
+    }
+}
